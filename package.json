@@ -1,0 +1,22 @@
+{
+  "name": "kujira1993",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kujira1993/Jasmin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kujira1993/Jasmin/issues"
+  },
+  "homepage": "https://github.com/kujira1993/Jasmin#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
