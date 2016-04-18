@@ -198,7 +198,7 @@ display: table;
 ----------------------------------------------------------------- */
 
 body {
-font-family: sans-serif, Verdana, "MS PGothic";
+font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
 font-size: 14px;
 line-height: 1.6;
 }
@@ -232,11 +232,16 @@ width: 215px;
 ----------------------------------------------------------------- */
 /* --- footerWrap --- */
 .footer {
+background-color: #fdebfb;
+border-bottom: 1px solid #e4e4e4;
+border-top: 1px solid #e4e4e4;
 width: 100%;
 }
 
 .footer_inner {
-background-color: #fdebfb;
 box-sizing: border-box;
+margin: 0 auto;
+padding: 20px 0;
+width: 960px;
 }
 

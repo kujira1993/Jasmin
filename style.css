@@ -2,16 +2,129 @@
 
 
 /* ----------------------------------------------------------------
+*	00.commonItems
 *	01.content
-
+*	02.sidebar
 ----------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+00. commonItems
+----------------------------------------------------------------- */
+/* --- ttl --- */
+.main_ttl {
+background-position: 0 50%;
+background-repeat: no-repeat;
+color: #3c3c3c;
+font-size: 16px;
+font-weight: bold;
+line-height: 20px;
+margin-bottom: 20px;
+padding-left: 36px;
+}
+
+.main_ttl.camera {
+background-image: url(common/images/ttl-icon-camera.png);
+}
+
+.main_ttl.topic {
+background-image: url(common/images/ttl-icon-topic.png);
+}
+
+
+/* --- slides --- */
+.responsible_slides {
+padding-left: 20px;
+}
+
+.responsible_slides li {
+background-color: #fff;
+float: left;
+height: 320px;
+margin-right: 20px;
+width: 260px;
+}
+
+.responsible_slides li:last-child {
+margin-right: 0;
+}
+
+/* --- tabbox --- */
+.responsible_tabbox {
+width: 820px;
+border: 1px solid #e4e4e4;
+}
+
+.responsible_tabbox_selector {
+width: 100%;
+}
+
+.responsible_tabbox_selector li {
+background-color: #fff;
+border-right: 1px solid #e4e4e4;
+box-sizing: border-box;
+cursor: pointer;
+float: left;
+font-size: 12px;
+font-weight: bold;
+height: 49px;
+line-height: 49px;
+text-align: center;
+width: 12.5%;
+}
+
+.responsible_tabbox_selector li:last-child {
+border-right: none;
+}
+
+.responsible_tabbox_selector li:hover {
+background-color: #e4e4e4;
+}
+
+.responsible_tabbox_selector li.current {
+background-color: #9dd7e5;
+color: #fff;
+}
+
+.responsible_tabbox_content {
+background-color: #fff;
+border-top: 1px solid #e4e4e4;
+box-sizing: border-box;
+height: 350px;
+padding: 20px;
+width: 100%;
+}
 
 /* ----------------------------------------------------------------
 01. content
 ----------------------------------------------------------------- */
 /* --- content --- */
 .content {
-background-color: #e8fcfb;
+background-color: #9dd7e5;
+padding: 40px 0 60px;
+width: 100%;
 }
 
+.content_keyvisual_wrap {
+background-color: #fff;
+margin: 0 auto 40px;
+height: 360px;
+width: 960px;
+}
 
+/* --- content_inner --- */
+.content_inner {
+background-color: #fdebfb;
+box-sizing: border-box;
+margin: 0 auto;
+padding: 30px 50px 30px 60px;
+width: 960px;
+}
+
+.content_inner_box {
+margin-bottom: 40px;
+}
+
+/* ----------------------------------------------------------------
+02. sidebar
+----------------------------------------------------------------- */
+/* --- sidebar --- */
