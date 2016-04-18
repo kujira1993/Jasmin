@@ -133,8 +133,8 @@ width: 257px;
 }
 
 .snap_item img {
-	height: 100%;
-	left: 50%;
+	right: -100%;
+	right: -100%;
 	position: absolute;
 	top: 0;
 	width: auto;
