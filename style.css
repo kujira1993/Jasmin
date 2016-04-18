@@ -30,6 +30,10 @@ background-image: url(common/images/ttl-icon-camera.png);
 background-image: url(common/images/ttl-icon-topic.png);
 }
 
+.main_ttl.rank {
+background-image: url(common/images/ttl-icon-rank.png);
+}
+
 
 /* --- slides --- */
 .responsible_slides {
@@ -50,8 +54,9 @@ margin-right: 0;
 
 /* --- tabbox --- */
 .responsible_tabbox {
-width: 820px;
 border: 1px solid #e4e4e4;
+border-radius: 0 0 5px 5px;
+width: 820px;
 }
 
 .responsible_tabbox_selector {
@@ -88,10 +93,36 @@ color: #fff;
 .responsible_tabbox_content {
 background-color: #fff;
 border-top: 1px solid #e4e4e4;
+border-radius: 0 0 5px 5px;
 box-sizing: border-box;
 height: 350px;
 padding: 20px;
 width: 100%;
+}
+
+/* --- banner_wrap --- */
+.banner_wrap {
+width: 100%;
+}
+
+.banner_wrap li {
+background-color: #9e9e9e;
+float: left;
+height: 150px;
+margin: 0 20px 20px 0;
+width: 400px;
+}
+
+.banner_wrap li:nth-child(even) {
+margin-right: 0;
+}
+
+.banner_wrap li:nth-child(n+3) {
+margin-bottom: 0;
+}
+
+.banner_wrap li a {
+display: block;
 }
 
 /* ----------------------------------------------------------------
