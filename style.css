@@ -125,6 +125,27 @@ margin-bottom: 0;
 display: block;
 }
 
+/*- ------- .snap_item -------  */
+.snap_item {
+overflow: hidden;
+position: relative;
+width: 257px;
+}
+
+.snap_item img {
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	top: 0;
+	width: auto;
+}
+
+.snap_item .day {
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
 /* ----------------------------------------------------------------
 01. content
 ----------------------------------------------------------------- */
