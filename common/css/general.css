@@ -244,6 +244,7 @@ width: 960px;
 
 .header_inner_logo {
 height: 90px;
+line-height: 90px;
 width: 215px;
 }
 
@@ -305,6 +306,26 @@ margin-right: 60px;
 margin-bottom: 8px;
 }
 
+.footer_bottom {
+background-color: #fff;
+}
 
+.footer_bottom_inner {
+margin: 0 auto;
+width: 960px;
+}
 
+.footer_bottom_inner_attention,
+.footer_bottom_inner_copy {
+font-size: 12px;
+line-height: 30px;
+}
+
+.footer_bottom_inner_attention {
+float: left;
+}
+
+.footer_bottom_inner_copy {
+float: right;
+}
 
