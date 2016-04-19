@@ -243,8 +243,9 @@ width: 960px;
 }
 
 .header_inner_logo {
+box-sizing: border-box;
 height: 90px;
-line-height: 90px;
+padding: 5px 0;
 width: 215px;
 }
 
