@@ -18,8 +18,6 @@ $(function() {
 		var textLength = $(this).text().length;
 		var textTrim = $(this).text().substr(0,(cutFigure));
 
-		console.log(textLength);
-
 		if(cutFigure < textLength) {
 			$(this).html(textTrim + afterTxt).css({visibility:'visible'});
 		} else if(cutFigure >= textLength) {
@@ -68,12 +66,6 @@ $(function() {
 				}
 			}
 		]
-	});
-
-	$('.lazy-item').slick({
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1
 	});
 
 });

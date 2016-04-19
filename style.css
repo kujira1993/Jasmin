@@ -23,6 +23,10 @@ text-decoration: none;
 width: 330px;
 }
 
+.btn:hover {
+text-decoration: none;
+}
+
 .btn.usually {
 background-image: url(common/images/btn_arrow_off.jpg);
 background-repeat: no-repeat;
@@ -241,6 +245,10 @@ text-decoration: none;
 width: 100%;
 }
 
+.thum_list_box_item:hover {
+text-decoration: none;
+}
+
 .thum_list_box_item_thum {
 display: table-cell;
 height: 90px;
@@ -280,7 +288,8 @@ margin: 0 0 20px 20px;
 width: 820px;
 }
 
-.snap_rank_box .number {
+.snap_rank_box .number,
+.topic_rank_box .number {
 background-color: #9cd8e3;
 border-radius: 50%;
 color: #fff;
@@ -297,15 +306,18 @@ width: 40px;
 z-index: 102;
 }
 
-.snap_rank_box .number.one {
+.snap_rank_box .number.one,
+.topic_rank_box .number.one {
 background-color: #f5e837;
 }
 
-.snap_rank_box .number.two {
+.snap_rank_box .number.two,
+.topic_rank_box .number.two {
 background-color: #d7d7d7;
 }
 
-.snap_rank_box .number.three {
+.snap_rank_box .number.three,
+.topic_rank_box .number.three {
 background-color: #f6b37e;
 }
 
@@ -396,7 +408,76 @@ z-index: 101;
 transform: translate(-50%,-50%);
 }
 
-/*---- topic_rank_list*/
+/* --- topic_rank_box --- */
+.topic_rank_box {
+	margin: 0 0 20px 20px;
+	width: 820px
+}
+
+.topic_rank_box li {
+background-color: #fff;
+border: 1px solid #e4e4e4;
+box-sizing: border-box;
+display: table;
+margin-bottom: 10px;
+table-layout: fixed;
+padding: 10px 20px 10px 10px;
+position: relative;
+width: 100%;
+}
+
+.topic_rank_box li:nth-child(3) {
+margin-bottom: 0;
+}
+
+.topic_rank_box li a {
+text-decoration: none;
+}
+
+.topic_rank_box_thum {
+display: table-cell;
+height: 130px;
+overflow: hidden;
+position: relative;
+width: 130px;
+}
+
+.topic_rank_box_thum_img {
+height: 100%;
+left: 50%;
+position: absolute;
+top: 50%;
+width: auto;
+z-index: 101;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+
+.topic_rank_box_side {
+display: table-cell;
+}
+
+.topic_rank_box_ttl {
+color: #3b3b3b;
+font-size: 22px;
+font-weight: bold;
+line-height: 1.5;
+padding: 20px 0 9px 20px;
+text-decoration: none;
+word-break: break-all;
+}
+
+.topic_rank_box_ttl:hover {
+text-decoration: underline;
+}
+
+.topic_rank_box_side .name {
+color: #cdcdcd;
+display: block;
+font-size: 20px;
+text-align: right;
+}
 
 /* ----------------------------------------------------------------
 01. content
@@ -425,7 +506,7 @@ width: 30px;
 
 .content_keyvisual_wrap .slick-dots li button:before {
 color: #fff;
-font-size: 25px;
+font-size: 15px;
 opacity: 1;
 }
 

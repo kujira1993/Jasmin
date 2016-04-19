@@ -51,6 +51,14 @@ margin: 0;
 padding: 0;
 vertical-align: middle;
 }
+a {
+color: #3b3b3b;
+text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 
 
 /**
@@ -210,6 +218,7 @@ transform: translate(-50%,-50%);
 ----------------------------------------------------------------- */
 
 body {
+color: #3b3b3b;
 font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
 font-size: 14px;
 line-height: 1.5;
@@ -260,4 +269,42 @@ margin: 0 auto;
 padding: 20px 0;
 width: 960px;
 }
+
+.footer_inner_left {
+float: left;
+margin-right: 40px;
+}
+
+.footer_inner_logo {
+margin-bottom: 10px;
+}
+
+.footer_inner_sns li {
+float: left;
+}
+
+.footer_inner_sns li:nth-child(2) {
+margin: 0 20px;
+}
+
+.footer_inner_sns li a {
+display: block;
+line-height: 28px;
+}
+
+.footer_inner_right {
+float: left;
+}
+
+.footer_inner_link_wrap {
+float: left;
+margin-right: 60px;
+}
+
+.footer_inner_link_wrap li {
+margin-bottom: 8px;
+}
+
+
+
 
