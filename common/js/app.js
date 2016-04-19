@@ -11,7 +11,7 @@ $(function() {
 
 	/* 文字数カウントをしてカットする処理 */
 	var $setElm = $('.ttl');
-	var cutFigure = '64'; // カットする文字数
+	var cutFigure = '60'; // カットする文字数
 	var afterTxt = '…'; // 文字カット後に表示するテキスト
 
 	$setElm.each(function(){
@@ -43,6 +43,28 @@ $(function() {
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 2
+				}
+			}
+		]
+	});
+
+	$('.content_keyvisual_wrap').slick({
+		infinite: true,
+		dots:true,
+		arrows:false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+			},{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
 		]
